@@ -1,25 +1,14 @@
-# instagram
+# Instagram Clone Project
 
-This template should help get you started developing with Vue 3 in Vite.
+## Project Overview
 
-## Recommended IDE Setup
+This project was used to solifify my learnings on Vue.js Framework.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Technologies used
+- Vue: Used as the development framework
+- Supabase: Used this backend as a service to implement users and authentication, posts storage, and to keep track of followers
+- Ant Design Vue: This UI Component library was used to implment some components, such as Cards, Modals, and loading Spinners.
+- Pinia: Used for global state management
 
 ## Project Setup
 
@@ -60,3 +49,5 @@ But it's still recommended to test the production build with `test:e2e` before d
 npm run build
 npm run test:e2e
 ```
+
+**Note:** Supabase needs to be set up and connected to this project
